@@ -1,7 +1,12 @@
 name: 'Terraform_manual'
-on:
-  workflow_dispatch
+#Next 2 lines are for configuring the manual data action
+#on :
+# workflow_dispatch
 
+on:
+  push:
+    branches: [ "main" ]
+    
 permissions:
   contents: read
 
