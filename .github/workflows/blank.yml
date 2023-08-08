@@ -5,16 +5,16 @@ name: 'Terraform_manual'
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "Dev_Org" ]
     
 permissions:
   contents: read
 
 jobs:
   terraform:
-    name: 'CICD'
+    name: 'CICD2'
     runs-on: ubuntu-latest
-    environment: US_Lab
+    environment: UK Lab
 
  
 
