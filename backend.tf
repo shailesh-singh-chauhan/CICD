@@ -5,7 +5,7 @@ terraform {
  
 
     workspaces {
-      name = "CICD"
+      name = "CICD2"
     }
   }
 
