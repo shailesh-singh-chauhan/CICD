@@ -10,6 +10,6 @@ module "routing_queue" {
 }
 #Module for workflow
 resource "genesyscloud_flow" "flowname" {
-  filepath = "./modules/workflow/ShaileshTest.yaml"
-  file_content_hash = filesha256("./modules/workflow/ShaileshTest.yaml") 
+  filepath = "./modules/workflows/ShaileshTest.yaml"
+  file_content_hash = filesha256("./modules/workflows/ShaileshTest.yaml") 
 }
