@@ -6,3 +6,4 @@ resource "genesyscloud_routing_queue" "example_queue_2" {
   acw_timeout_ms                    = 300000
   skill_evaluation_method           = "BEST"
  }
+
