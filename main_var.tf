@@ -12,11 +12,11 @@ module "routing_queue" {
 # Module for routing-skill
 module "routing_skill" {
 	source = "./modules/routing_skill"
-
+}
 #Module for routing-wrapup-code
 module "routing-wrapup-code" {
 	source = "./modules/routing_wrapupcode"
-
+}
 
 
 
