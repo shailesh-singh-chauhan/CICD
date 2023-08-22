@@ -16,6 +16,8 @@ module "routing_skill" {
 #Module for routing-wrapup-code
 module "routing-wrapup-code" {
 	source = "./modules/routing_wrapupcode"
+
+resolved-id = module.routing_wrapupcode.resolved-id
 }
 
 
