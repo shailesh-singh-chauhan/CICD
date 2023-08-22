@@ -10,11 +10,10 @@ module "routing_queue" {
 
 #Wrap Up Code IDs
 
-resolved-id = modules.routing_wrapupcode.resolved-id
-
-
+resolved-id = module.routing_wrapupcode.resolved-id
 
 }
+
 
 # Module for routing-skill
 module "routing_skill" {
