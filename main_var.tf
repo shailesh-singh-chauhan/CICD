@@ -10,7 +10,7 @@ module "routing_queue" {
 }
 
 # Module for routing-skill
-moudlue "routing_skill" {
+module "routing_skill" {
 	source = "./modules/routing_skill"
 
 #Module for routing-wrapup-code
