@@ -8,6 +8,19 @@ module "auth_division" {
 module "routing_queue" {
     source = "./modules/routing_queue"
 }
+
+# Module for routing-skill
+moudlue "routing_skill" {
+	source = "./modules/routing_skill"
+
+#Module for routing-wrapup-code
+module "routing-wrapup-code" {
+	source = "./modules/routing_wrapupcode"
+
+
+
+
+
 #Module for workflow
 resource "genesyscloud_flow" "flowname" {
   filepath = "./modules/workflows/ShaileshTest.yaml"

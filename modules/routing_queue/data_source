@@ -1,3 +1,0 @@
-data "genesyscloud_auth_division" "demo1"{
-    name = "Demo1"
-}
