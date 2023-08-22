@@ -23,7 +23,7 @@ resource "genesyscloud_routing_queue" "example_queue3" {
   }
   bullseye_rings {
     expansion_timeout_seconds = 15.1
-    skills_to_remove          = [data.genesyscloud_routing_skill.test_skill.id]
+    skills_to_remove          = [data.genesyscloud_routing_skill.test_skill2.id]
 
    
   }
