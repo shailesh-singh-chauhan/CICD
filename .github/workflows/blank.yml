@@ -5,7 +5,7 @@ name: 'Terraform_manual'
 
 on:
   push:
-    branches: [ "Dev_Org" ]
+    branches: [ "main" ]
     
 permissions:
   contents: read
