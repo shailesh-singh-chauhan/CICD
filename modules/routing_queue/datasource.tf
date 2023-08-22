@@ -7,8 +7,8 @@ data "genesyscloud_auth_division" "demo1"{
 
 #Skil Data Source
 
-data "genesyscloud_routing_skill" "test_skill" {
-  name = "Test Skill"
+data "genesyscloud_routing_skill" "test_skill2" {
+  name = "Test Skill 2"
 }
 
 
