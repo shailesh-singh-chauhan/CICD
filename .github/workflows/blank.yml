@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   terraform:
-    name: 'CICD2'
+    name: 'CICD'
     runs-on: ubuntu-latest
     environment: UK Lab
 
