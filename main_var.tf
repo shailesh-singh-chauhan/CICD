@@ -7,6 +7,13 @@ module "auth_division" {
 # Module for routing-queue
 module "routing_queue" {
     source = "./modules/routing_queue"
+
+#Wrap Up Code IDs
+
+resolved-id = modules.routing_wrapupcode.resolved-id
+
+
+
 }
 
 # Module for routing-skill
@@ -16,8 +23,6 @@ module "routing_skill" {
 #Module for routing-wrapup-code
 module "routing-wrapup-code" {
 	source = "./modules/routing_wrapupcode"
-
-resolved-id = modules.routing_wrapupcode.resolved-id
 }
 
 
