@@ -1,4 +1,4 @@
-/*
+
 # Module for auth-division
 module "auth_division" {
   source = "./modules/auth_division"   
@@ -11,7 +11,7 @@ module "routing_queue" {
 
 #Wrap Up Code IDs
 
-resolved-id = module.routing-wrapup-code.resolved-id
+#resolved-id = module.routing-wrapup-code.resolved-id
 
 }
 
@@ -33,4 +33,4 @@ resource "genesyscloud_flow" "flowname" {
   filepath = "./modules/workflows/ShaileshTest.yaml"
   file_content_hash = filesha256("./modules/workflows/ShaileshTest.yaml") 
 }
-*/
+
